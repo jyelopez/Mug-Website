@@ -4,222 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            display: flex;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .wrapper {
-            background: #f0f0f0;
-        }
-        .sidebar {
-            width: 20%;
-            background-color: #d3d3d3;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-        .sidebar .button {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            margin-bottom: 10px;
-        }
-        .content {
-            background-color: #d3d3d3;
-            width: 60%;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-        .right-bar {
-            width: 40%;
-            background-color: #d3d3d3;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-        .right-bar .price {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        .right-bar .button {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        .footer {
-            width: 100%;
-            background-color: #d3d3d3;
-            padding: 10px;
-            box-sizing: border-box;
-            text-align: center;
-        }
-        .header {
-            background: #333;
-            position: sticky;
-            top: 0;
-        }
-        .svg-header {
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            margin-left: auto;
-            border-radius: 3px;
-            border: none;
-        }
-        .btns {
-            display: flex;
-            align-items: center; 
-            padding: 10px;
-            gap: 10px;
-        }
-        .btns .about {
-            margin-left: auto;
-            padding: 10px;
-            border-radius: 3px;
-            border: none
-        }
-        .home {
-            padding: 10px;
-            border-radius: 3px;
-            border: none
-        }
-        .contact {
-            padding: 10px;
-            border-radius: 3px;
-            border: none
-        }
-        .main-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .content {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-        .content img {
-            grid-column: 2/3;
-        }
-        .popup {
-            display: flex;
-            padding: 50px;
-        }
-        .p1 {
-            padding: 50px;
-        }
-        .p2 {
-            padding: 50px;
-        }
-        .below-content {
-            padding: 50px;
-        }
-
-        .right-bar p {
-            padding: 20px;
-        }
-        .seethroughbtn {
-            border: none;
-            cursor: pointer;
-            padding: 20px;
-        }
-        .seethroughbtn:hover {
-            background-color: rgb(255, 255, 255);
-        }
-        .background-color-class {
-            background-color:  #d3d3d3;
-        }
-        .instagram img {
-            width: 100px;
-            height: 100px;
-            border-radius: 100px;
-        }
-        .facebook img {
-            width: 100px;
-            height: 100px;
-            border-radius: 100px;
-        }
-        .twitter img {
-            width: 100px;
-            height: 100px;
-            border-radius: 100px;
-        }
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            gap: 300px;
-            padding-bottom: 200px;
-            padding-top: 100px
-        }
-        .ci {
-            text-align: center;
-            padding-top: 200px;
-        }
-
-        /* Footer Styling */
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            font-family: Arial, sans-serif;
-        }
-
-        .footer-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: flex-start;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .footer-section {
-            flex: 1;
-            margin: 20px;
-            min-width: 200px;
-        }
-
-        .footer-section h4 {
-            margin-bottom: 15px;
-            font-size: 18px;
-        }
-
-        .footer-section p,
-        .footer-section a {
-            margin: 5px 0;
-            font-size: 14px;
-            color: #fff;
-            text-decoration: none;
-        }
-
-        .footer-section a:hover {
-            text-decoration: underline;
-        }
-
-        .footer-bottom {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 12px;
-            color: #aaa;
-        }
-
-        /* Responsive Adjustments */
-        @media (max-width: 768px) {
-            .footer-container {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .footer-section {
-                margin: 10px 0;
-            }
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
+<!-- create a info gather page to buy now -->
+
 <body>
     <div class="wrapper">
         <header class="header">
@@ -259,22 +48,21 @@
                     <div class="button">Add to cart</div>
                     <div class="button">Buy Now!</div>
 
-                    <p>Lorem ipsum dolor sit, uta dignissimos odit tenetur distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint reprehenderit doloremque quasi? Assumenda praesentium, omnis ducimus sequi neque animi, beatae dicta dolorem impedit illo culpa officia laborum, tempora aperiam modi!</p>
+                    <p >Lorem ipsum dolor sit, uta dignissimos odit tenetur distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint reprehenderit doloremque quasi? Assumenda praesentium, omnis ducimus sequi neque animi, beatae dicta dolorem impedit illo culpa officia laborum, tempora aperiam modi!</p>
                 </div>
             </div>
         </div>  
         <div class="below-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, dolores tenetur eius tempora quia ab, quos hic explicabo, sint dolorem aliquid est? Ad, odio quidem dolor autem illo quod architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid nesciunt, esse neque enim quam ut. Minus ullam et ea quam sapiente illum modi voluptas suscipit, error a, ducimus laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsam eveniet accusantium autem perspiciatis quibusdam, delectus illo necessitatibus neque eum ullam natus nulla mollitia debitis, iure est libero quia ipsum!</p>
+            <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, dolores tenetur eius tempora quia ab, quos hic explicabo, sint dolorem aliquid est? Ad, odio quidem dolor autem illo quod architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid nesciunt, esse neque enim quam ut. Minus ullam et ea quam sapiente illum modi voluptas suscipit, error a, ducimus laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsam eveniet accusantium autem perspiciatis quibusdam, delectus illo necessitatibus neque eum ullam natus nulla mollitia debitis, iure est libero quia ipsum!</p>
         </div>
         <div class="popup">
-            <div class="p1"><p>
+            <div class="p1"><p class="hidden">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis saepe et molestias perspiciatis animi at dolorem eligendi accusamus. Vitae in sequi magni aliquid nesciunt asperiores laborum tempore quia quisquam quis.
             </p></div>
-            <div class="p2"><p>
+            <div class="p2"><p class="hidden">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsam pariatur tenetur necessitatibus dolores cum nihil voluptatum cumque molestiae suscipit culpa, alias soluta eos porro facere perferendis voluptatem. Nihil, rerum?
             </p></div>
         </div>
-        <h1 class="ci">CONTACT INFO</h1>
         <div class="contact-info">
             
             <div class="instagram">
@@ -286,7 +74,9 @@
             <div class="twitter">
                 <a href="x.com"><img src="twitter-brand-new-logo-3-d-with-new-x-shaped-graphic-of-the-world-s-most-popular-social-media-free-png.webp" alt=""></a>
             </div>
+            
         </div>
+        <h1 class="ci">CONTACT INFO</h1>
 
 
         <footer>
@@ -316,42 +106,6 @@
         
     </div>
 
-    <script>
-        function swapImage(imageId) {
-            const imageMap = {
-                'img1': 'elementor-placeholder-image1.jpg',
-                'img2': 'elementor-placeholder-image2.png',
-                'img3': 'elementor-placeholder-image3.jpg',
-                'img4': 'elementor-placeholder-image4.png'
-            };
-            document.getElementById('mainImage').src = imageMap[imageId];
-        }
-
-        function homeButton() {
-            const element = document.querySelector('.wrapper');
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-            } else {
-                console.error('Target element not found');
-            }
-        }   
-        function aboutButton() {
-            const element = document.querySelector('.below-content');
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-            } else {
-                console.error('Target element not found');
-            }
-        }   
-        function contactButton() {
-            const element = document.querySelector('.ci');
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-            } else {
-                console.error('Target element not found');
-            }
-        }   
-
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
